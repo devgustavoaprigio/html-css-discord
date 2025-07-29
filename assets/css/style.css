@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+button{
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0px 0px #00000060;
+}
+
+
+.banner{
+    width: 100vw;              /* ocupa toda a largura da viewport */
+    height: 100vh;             /* ocupa toda a altura da viewport */
+    background-image: url('../img/bg01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+.btn-action {
+  padding: 16px;
+  font-size: 1rem;
+  border-radius: 30px;
+  margin: 0.5rem;
+  border: none;
+  background-color: #fff;
+  color: black;
+  font-weight: bold;
+}
+
+
+.btn-black{
+    color: #FFF;
+    background-color: #23272A;
+    border-radius: 30px;
+    padding: 16px;
+    font-weight: bold;
+}
+
+.section{
+    background-color: #FFF;
+    width: 100%;
+    height:100vh;
+    
+    background-repeat: no-repeat;/*nao deixa repetir- tela de tv*/
+    background-position: center; /*deixa a imagem no centro - exemplo focar no rosto*/
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+.hero-image img{
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+}
+
+.hero-text{
+    max-width: 500px;
+    font-family: Arial, sans-serif;
+}
+
+.hero-text h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  color: #444;
+}
+.hero-alt {
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.hero-3 {
+  background-color: #f6f6f6; /* você pode trocar essa cor */
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center;      /* centraliza verticalmente */
+  text-align: center;       /* alinha o texto ao centro */
+  padding: 60px 20px;
+}
+
+.hero-text-3 {
+  max-width: 800px;
+}
+
+.hero-img-3 {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.font-poppins{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.footer{
+    background-color: black;
+    width: 230vh;
+    height: 80PX;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer img{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    
+}
